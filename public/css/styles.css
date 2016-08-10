@@ -1,54 +1,6 @@
-.cover {
-  background-color: #3A0A0A;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: .6;
-  z-index: -100;
-}
-
 .navbar {
-  opacity: .6;
+  opacity: .8;
   color: black;
-}
-
-.myself {
-  font-family: 'Goblin One', cursive;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  text-shadow: 3px 3px #2F087D;
-  color: #DCBABA;
-
-}
-h1 {
-  font-size: 60px;
-}
-
-h3 {
-  font-size: 40px;
-}
-
-.background {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -500;
-}
-
-.about_me {
-  font-family: 'Roboto Slab', serif;
-  padding: 15px;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  margin-right: 20%;
-  margin-left: 20%;
-  margin-top: 15px;
 }
 
 .nav.navbar-nav.navbar-right li a {
@@ -58,60 +10,77 @@ h3 {
     font-family: 'Roboto Slab', serif;
 }
 
-.portfolio_pic {
-  max-height: 75px;
-  border-radius: 10px;
-  float: right;
-}
-
-.portfolio_title {
-  font-family: 'Goblin One', cursive;
-  font-size: 20px;
-}
-
-.portfolio_text {
-  font-family: 'Roboto Slab', serif;
-}
-
 p {
   font-family: 'Roboto Slab', serif;
 }
 
-.border-between > [class*='col-']:before {
- background: #e3e3e3;
- bottom: 0;
- content: " ";
- left: 0;
- position: absolute;
- width: 1px;
- top: 0;
-}
-
-.border-between > [class*='col-']:first-child:before {
- display: none;
-}
-
-.surf {
-  max-height: 140px;
-  border-radius: 10px;
-}
-
-.contact-title {
+.title {
   font-family: 'Goblin One', cursive;
-  margin-top: 15%;
 }
 
-input {
-  border: none;
-  outline:none;
-  background: rgba(0,0,0,0);
-  color: #3366BB;
-  cursor: pointer;
+.banner {
+  background:url('../images/ribs3.png') no-repeat center center;
+  min-height:100%;
+  background-size:cover;
+  padding: 120px 0px 80px 0px;
+  color: #ffcce6;
+  text-shadow: 2px 2px 4px #5900b3;
+  font-family: 'Goblin One', cursive;
+  margin-bottom: 25px;
 }
 
-/*footer {
-  position: fixed;
-  top: 92%;
-  left: 7%;
-}*/
+.me {
+  max-height: 200px;
+  border-radius: 10px;
+  float: left;
+  margin: 0px 20px 10px 5px;
+}
 
+.about_me {
+  font-family: 'Roboto Slab', serif;
+  padding: 15px;
+}
+
+
+
+footer {
+  margin: 15px 0px 15px 0px;
+}
+
+.portfolio_container {
+  height:250px;
+  overflow: hidden;
+  transition: all .3s ease;
+}
+
+.portfolio_container:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.text {
+  margin-top: -220px;
+  min-height: 210px;
+  opacity: 0;
+  transition: all .3s ease;
+}
+
+.portfolio_container:hover .text {
+ opacity: 1;
+}
+
+.portfolio_container:hover .pic {
+ opacity: 0.1;
+}
+
+ .pic{
+  max-height: 250px;
+  border: medium groove #660033;
+}
+
+body {
+  background: white; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#d633ff, white, #d633ff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#d633ff, white, #d633ff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#d633ff, white, #d633ff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#d633ff, white, #d633ff); /* Standard syntax */
+}
