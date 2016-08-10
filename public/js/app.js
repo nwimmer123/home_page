@@ -91,7 +91,9 @@ $(document).ready(function(){
 
     var theCompiledHtml = template(context);
 
-    $(document.body).append(theCompiledHtml);
+    $('.content-placeholder').html(theCompiledHtml);
+    
+    // $(document.body).append(theCompiledHtml);
 
   });
 
