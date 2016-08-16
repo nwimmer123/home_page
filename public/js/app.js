@@ -8,32 +8,6 @@ $(document).ready(function(){
     var context = { 
       portfolio_items: [
         {
-        image: "public/images/andersen.png",
-        title: "Freelance Work",
-        description: "Site for a structural engineer.",
-        language: "JavaScript, HTML, CSS",
-        framework: "Bootstrap",
-        library: "jQuery",
-        database: "NA",
-        other: "Git, GoDaddy Hosting",
-        sitelink: "https://andersen-engineering.com",
-        sitename: "Andersen Engineering",
-        githublink: "https://github.com/nwimmer123/andersen-engineering",
-        },
-        {
-        image: "public/images/excel.png",
-        title: "Freelance Work",
-        description: "Site for an Excel consultant.",
-        language: "JavaScript, HTML, CSS",
-        framework: "Bootstrap",
-        library: "jQuery",
-        database: "NA",
-        other: "Git, GoDaddy Hosting",
-        sitelink: "https://ExcelExcelExcel.com",
-        sitename: "ExcelExcelExcel",
-        githublink: "https://github.com/nwimmer123/david-excel",
-        },
-        {
         image: "public/images/read_it.png",
         title: "Solo Project",
         description: "Friends can share and discuss their favorites books.",
@@ -84,7 +58,33 @@ $(document).ready(function(){
         sitelink: "http://vagabonders.herokuapp.com",
         sitename: "Vagabonder",
         githublink: "https://github.com/bw-giraffe/project_vagabond",
-        }
+        },
+        {
+        image: "public/images/andersen.png",
+        title: "Freelance Work",
+        description: "Site for a structural engineer.",
+        language: "JavaScript, HTML, CSS",
+        framework: "Bootstrap",
+        library: "jQuery",
+        database: "NA",
+        other: "Git, GoDaddy Hosting",
+        sitelink: "https://andersen-engineering.com",
+        sitename: "Andersen Engineering",
+        githublink: "https://github.com/nwimmer123/andersen-engineering",
+        },
+        {
+        image: "public/images/excel.png",
+        title: "Freelance Work",
+        description: "Site for an Excel consultant.",
+        language: "JavaScript, HTML, CSS",
+        framework: "Bootstrap",
+        library: "jQuery",
+        database: "NA",
+        other: "Git, GoDaddy Hosting",
+        sitelink: "https://ExcelExcelExcel.com",
+        sitename: "ExcelExcelExcel",
+        githublink: "https://github.com/nwimmer123/david-excel",
+        },
 
       ]
     };
