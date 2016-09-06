@@ -57,7 +57,7 @@ $(document).ready(function(){
         other: "Git",
         sitelink: "http://vagabonders.herokuapp.com",
         sitename: "Vagabonder",
-        githublink: "https://github.com/bw-giraffe/project_vagabond",
+        githublink: "https://github.com/nwimmer123/project_vagabond",
         },
         {
         image: "public/images/andersen.png",
